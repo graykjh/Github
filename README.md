@@ -22,8 +22,8 @@
         from sklearn.linear_model import LogisticRegression
         from sklearn.model_selection import train_test_split
         
-        X=cav1.iloc[:,1:]
-        y=cav1.iloc[:,1]
+        X=df.iloc[:,1:]
+        y=df.iloc[:,1]
         
         X_train = X.loc[1:1000001,:]
         X_test = X.loc[1000001:1500000:]
