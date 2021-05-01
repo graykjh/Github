@@ -1,4 +1,4 @@
-1. 예측 모델 학습기의 소스코드 작성
+# 1. 예측 모델 학습기의 소스코드 작성
 
         # 데이터 로드 - 압축 풀기 이후 진행사항
         f = open('Criteo_Conversion_Search/CriteoSearchData', mode = 'r', encoding='UTF-8')
